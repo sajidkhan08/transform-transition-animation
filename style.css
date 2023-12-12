@@ -92,3 +92,92 @@ div:hover {
 div:hover {
   width: 300px;
 } */
+
+/* ANIMATION */
+/* div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+@keyframes example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+} */
+
+/* div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: cswithalam;
+  animation-duration: 4s;
+}
+
+@keyframes cswithalam {
+  0% {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+  }
+  25% {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+  }
+  50% {
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+  }
+  100% {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+  }
+} */
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example1;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 3;
+  animation-direction: reverse;
+}
+
+@keyframes example1 {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
